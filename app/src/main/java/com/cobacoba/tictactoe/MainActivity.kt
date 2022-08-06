@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val intent = intent
+        playerone.text = intent.getStringExtra("PlayerOneName")
+        playertwo.text = intent.getStringExtra("PlayerTwoName")
         i = 1
         while (i <= 9) {
             var cellID: Int = resources.getIdentifier("cell" + i, "id", packageName)

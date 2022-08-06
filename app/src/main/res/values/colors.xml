@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="btnreset">#E6A2FF</color>
+    <color name="btnreset">#FBAA52</color>
     <color name="player_blue">#FF03A9F4</color>
     <color name="player_red">#F44336</color>
     <color name="neon_blue">#0EEBFF</color>
